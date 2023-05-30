@@ -122,7 +122,7 @@ In a new terminal, paste the edited curl command, and press enter. You should se
 
 ### Step 5: Daily challenge complete! Time to submit.
 
-Congratulations on completing the day 3 challenge! To submit, take a screenshot of your command line output to show that you performed the lookup.
+Congratulations on completing the day 3 challenge! To submit, take a screenshot of your command line output to show that you performed the lookup. Don't forget to submit your code to the [GHW Security Week Devpost page]! (https://ghw-security-week.devpost.com/)
 
 ## Day 2: Send and check a verification one-time passcode
 
@@ -177,7 +177,7 @@ In a new terminal, paste the edited curl command, and press enter. If the code i
 
 ### Step 4: Daily challenge complete! Time to submit.
 
-Congratulations on completing the day 3 challenge! To submit, take a screenshot of your SMS or WhatsApp application to show you received the OTP and submit it to [DevPost](https://hackp.ac/dailydevpost).
+Congratulations on completing the day 3 challenge! To submit, take a screenshot of your SMS or WhatsApp application to show you received the OTP and submit it to the GHW Security Week day-of form!
 
 ## Day 3: Install the Authy App
 
@@ -193,7 +193,7 @@ Authy can be used anywhere Google Authenticator can be used. Add 2FA to any onli
 
 ### Step 3: Daily challenge complete! Time to submit.
 
-You've completed day 4, high five! To submit, take a screenshot of your Authy app showing the site you added and submit to [DevPost](https://hackp.ac/dailydevpost) (don't worry about sharing the code, it expires!).
+You've completed day 4, high five! To submit, take a screenshot of your Authy app showing the site you added and submit to the GHW Security Week day-of form! (don't worry about sharing the code, it expires!).
 
 ## Day 4: Receive your first phone call using TwiML bins and Dev Phone.
 
@@ -246,7 +246,7 @@ From here, you can select a phone number. Choose the number that you didn't use 
 
 ### Step 6: Daily challenge complete! Time to submit.
 
-You've completed day 5, high five! To submit, take a screenshot of your Dev Phone call history and submit to [DevPost](https://hackp.ac/dailydevpost).
+You've completed day 5, high five! To submit, take a screenshot of your Dev Phone call history and submit it to the GHW Security Week day-of form!
 
 ## Day 5: Make your first outbound phone call using curl.
 
@@ -291,6 +291,8 @@ Congratulations on completing the day 3 challenge! To submit, take a screenshot 
 ## Day 6: Deploy from the Twilio CodeExchange
 
 CodeExchange makes it easy to get started with any app. It’s a searchable directory of customizable code samples, written by developers around the world, vetted by Twilio experts, and ready for you to use. We can’t wait to see what you build using CodeExchange code samples. Go ahead and get started by checking it out now. Pick one of the Applications and deploy it to your Twilio account. [Twilio CodeExchange](https://www.twilio.com/code-exchange?q=&f=serverless).
+
+Don't forget to take a screenshot of your deployment and submit it to the GHW Security Week day-of form! 
 
 # Frequently Asked Questions
 
