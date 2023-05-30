@@ -63,7 +63,7 @@ curl comes pre-installed on Windows, and can be accessed through Powershell. Use
 
 ### Step 5: Daily challenge complete! Time to submit.
 
-You've completed the challenge for the day, high five! To submit the challenge, type curl --version into your terminal, and submit a screenshot [on the DevPost](https://ghw-september-day-2.devpost.com/)
+You've completed the challenge for the day, high five! To submit the challenge, type curl --version into your terminal, and submit a screenshot on the MLH day-of form! 
 
 ## Day 1: Lookup a phone number
 
