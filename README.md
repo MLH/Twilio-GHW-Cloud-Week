@@ -28,7 +28,7 @@ To complete the week's challenges, there's some setup we need to do first. Today
 
 - Create and upgrade your Twilio account with some free credit.
 - Install the Twilio command line interface
-- Install curl to make requests to the Twilio API from the command line.
+- Install `curl` to make requests to the Twilio API from the command line.
 
 ### Step 1: Create an account
 
@@ -51,19 +51,19 @@ The Twilio CLI makes it easy to use Twilio from our command line interface. We w
 
 To install the CLI, follow [this guide](https://www.twilio.com/docs/twilio-cli/quickstart).
 
-### Step 4: Installing curl
+### Step 4: Installing `curl`
 
-The last step today is to install curl. curl is a command line tool for getting data from URLs, and we'll use it to interact with the Twilio REST API.
+The last step today is to install `curl`. `curl` is a command line tool for getting data from URLs, and we'll use it to interact with the Twilio REST API.
 
-You can learn more about curl [here](https://curl.se/).
+You can learn more about `curl` [here](https://curl.se/).
 
-To install curl, follow [this guide](https://everything.curl.dev/get).
+To install `curl`, follow [this guide](https://everything.curl.dev/get).
 
-curl comes pre-installed on Windows, and can be accessed through Powershell. Use curl.exe when giving commands, i.e. curl.exe --version.
+`curl` comes pre-installed on Windows, and can be accessed through Powershell. Use `curl.exe` when giving commands, i.e. `curl.exe --version`.
 
 ### Step 5: Daily challenge complete! Time to submit.
 
-You've completed the challenge for the day, high five! To submit the challenge, type curl --version into your terminal, and submit a screenshot on the MLH day-of form! 
+You've completed the challenge for the day, high five! To submit the challenge, type `curl --version` into your terminal, and submit a screenshot on the MLH day-of form! 
 
 ## Day 1: Lookup a phone number
 
@@ -238,7 +238,7 @@ Remember which number you chose! In the next step, we will use the other number.
 
 ### Step 5: Test it using Dev Phone
 
-Open your terminal and start the Dev Phone with twilio dev-phone.
+Open your terminal and start the Dev Phone with `twilio dev-phone`.
 
 After starting up, the terminal will tell you the address of the Dev Phone interface, usually https://localhost:3001. Go here in your browser to use the Dev Phone.
 
