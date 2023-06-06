@@ -4,7 +4,7 @@ Hello hackers! Learn how to use REST APIs with Twilio during Global Hack Week by
 
 ## Getting Help
 
-If you have questions about Twilio or the Global Hack Week challenges, visit the #twilio channel in the [MLH Discord](https://discord.mlh.io/).
+If you have questions about Twilio or the Global Hack Week challenges, visit the #faq channel in the [MLH Discord](https://discord.mlh.io/).
 
 # Daily challenges
 
