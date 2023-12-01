@@ -22,7 +22,7 @@ During Global Hack Week, you will learn how to use Twilio to:
 - Send one-time passcodes over SMS or WhatsApp with Twilio Verify
 - Send and receive voice calls Twilio Voice
 
-## Weeklong challenge: Get ready to hack with Twilio.
+## Registration challenge: Get ready to hack with Twilio.
 
 To complete the week's challenges, there's some setup we need to do first. Today you will:
 
