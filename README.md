@@ -6,7 +6,7 @@ Hello hackers! Learn how to use REST APIs with Twilio during Global Hack Week by
 
 If you have questions about Twilio or the Global Hack Week challenges, message us on the [MLH Discord](https://discord.mlh.io/).
 
-# Daily challenges
+# Challenges
 
 ## What is an API? What is a REST API?
 
@@ -52,9 +52,9 @@ To install `curl`, follow [this guide](https://everything.curl.dev/get).
 
 `curl` comes pre-installed on Windows, and can be accessed through Powershell. Use `curl.exe` when giving commands, i.e. `curl.exe --version`.
 
-### Step 4: Daily challenge complete! Time to submit.
+### Step 4: Challenge complete! Time to submit.
 
-You've completed the challenge for the day, high five! To submit the challenge, type `curl --version` into your terminal, and submit a screenshot on the MLH day-of form! 
+You've completed the challenge, high five! To submit the challenge, type `curl --version` into your terminal, and submit a screenshot on the MLH day-of form! 
 
 ## Challenge 1: Lookup a phone number
 
@@ -111,9 +111,9 @@ Once you've done those two things, our curl request is ready to go!
 
 In a new terminal, paste the edited curl command, and press enter. You should see a response that includes the name of a famous building - what is it??
 
-### Step 5: Daily challenge complete! Time to submit.
+### Step 5: Challenge complete! Time to submit.
 
-Congratulations on completing the day 3 challenge! To submit, take a screenshot of your command line output to show that you performed the lookup. Don't forget to submit your code to the [GHW Security Week Devpost page]! (https://ghw-security-week.devpost.com/)
+Congratulations on completing the challenge! To submit, take a screenshot of your command line output to show that you performed the lookup. Don't forget to submit your code to the [GHW Cloud Week Devpost page]! (https://global-hack-week-cloud.devpost.com)
 
 ## Challenge 2: Send and check a verification one-time passcode
 
@@ -141,7 +141,7 @@ To prepare the request you'll need to:
 
 It will be easier to edit the curl command if you copy it into a text editor.
 
-To set your environment variables, follow the steps in Day 2 step 3.
+To set your environment variables, follow the steps in Challenge 2 step 3.
 
 To replace the number and the channel:
 
@@ -166,9 +166,9 @@ It will be easier to edit the curl command if you copy it into a text editor. On
 
 In a new terminal, paste the edited curl command, and press enter. If the code is correct, you'll see a response that says "status: approved". If you provide the wrong code, the status will still be "pending".
 
-### Step 4: Daily challenge complete! Time to submit.
+### Step 4: Challenge complete! Time to submit.
 
-Congratulations on completing the day 3 challenge! To submit, take a screenshot of your SMS or WhatsApp application to show you received the OTP and submit it to the GHW Security Week day-of form!
+Congratulations on completing the challenge! To submit, take a screenshot of your SMS or WhatsApp application to show you received the OTP and submit it to the GHW Cloud Week day-of form!
 
 ## Challenge 3: Install the Authy App
 
@@ -182,9 +182,9 @@ Head over to the [Authy Downloads](https://authy.com/download/) page to install 
 
 Authy can be used anywhere Google Authenticator can be used. Add 2FA to any online site that supports authenticator apps. Any site will do, but if you don't have something in mind, [add Authy 2FA to your GitHub account](https://github.com/settings/security).
 
-### Step 3: Daily challenge complete! Time to submit.
+### Step 3: Challenge complete! Time to submit.
 
-You've completed day 4, high five! To submit, take a screenshot of your Authy app showing the site you added and submit to the GHW Security Week day-of form! (don't worry about sharing the code, it expires!).
+You've completed challenge 4, high five! To submit, take a screenshot of your Authy app showing the site you added and submit to the GHW Cloud Week day-of form! (don't worry about sharing the code, it expires!).
 
 ## Challenge 4: Receive your first phone call using TwiML bins and Dev Phone.
 
@@ -223,7 +223,7 @@ A TwiML bin is a container for TwiML. We can fill the bin with TwiML to program 
 
 ### Step 4: Link your TwiML bin to your Twilio number
 
-Now that we have some TwiML to say "hello world", we need to connect it to our phone number. Choose one of the two numbers you purchased in day 1, and follow [this guide](https://www.twilio.com/docs/serverless/twiml-bins/getting-started#wire-your-twiml-bin-up-to-an-incoming-phone-call) to do that.
+Now that we have some TwiML to say "hello world", we need to connect it to our phone number. Choose one of the two numbers you purchased in Challenge 1, and follow [this guide](https://www.twilio.com/docs/serverless/twiml-bins/getting-started#wire-your-twiml-bin-up-to-an-incoming-phone-call) to do that.
 
 Remember which number you chose! In the next step, we will use the other number.
 
@@ -235,13 +235,13 @@ After starting up, the terminal will tell you the address of the Dev Phone inter
 
 From here, you can select a phone number. Choose the number that you didn't use in the previous step. The Dev Phone will then show you a dialer to call a number. Enter your other phone number, the one with the TwiML bin, and hit call. You should hear "Hello World" spoken back to you.
 
-### Step 6: Daily challenge complete! Time to submit.
+### Step 6: Challenge complete! Time to submit.
 
-You've completed day 5, high five! To submit, take a screenshot of your Dev Phone call history and submit it to the GHW Security Week day-of form!
+You've completed Challenge 5, high five! To submit, take a screenshot of your Dev Phone call history and submit it to the GHW Cloud Week day-of form!
 
 ## Challenge 5: Make your first outbound phone call using curl.
 
-Making an outbound phone call is a similar process to what we did on Day 2 to look up a phone number.
+Making an outbound phone call is a similar process to what we did in Challenge 2 to look up a phone number.
 
 ### Step 1: Building our curl request
 
@@ -260,13 +260,13 @@ To set your environment variables:
 
 To replace the numbers:
 
-- Set the To number to the Twilio phone number that you are using in the Dev Phone. NOT the number that we have used for the TwiML bin earlier in the week.
-- Set the From number to be the Twilio phone number that you have used for the TwiML bins in previous days.
+- Set the To number to the Twilio phone number that you are using in the Dev Phone. NOT the number that we have used for the TwiML bin in earlier challenges.
+- Set the From number to be the Twilio phone number that you have used for the TwiML bins in previous challenges.
 
 To replace the URL:
 
-- On day 5 we set up a TwiML bin to say "hello world" when we called our phone number. We can reuse that TwiML bin for our outbound call, so that when we phone someone, it will say "hello world".
-- In your [Twilio console](https://console.twilio.com/), find the TwiML bin you created yesterday. At the top of the page, you will see a url field. Copy this URL.
+- In Challenge 5 we set up a TwiML bin to say "hello world" when we called our phone number. We can reuse that TwiML bin for our outbound call, so that when we phone someone, it will say "hello world".
+- In your [Twilio console](https://console.twilio.com/), find the TwiML bin you created previously. At the top of the page, you will see a url field. Copy this URL.
 - Set the Url in our curl request to the TwiML bin URL.
 
 Once you've done those three things, our curl request is ready to go!
@@ -275,22 +275,22 @@ Once you've done those three things, our curl request is ready to go!
 
 Make sure your Twilio Dev Phone is running and open it in your browser. In a new terminal, paste the edited curl command, and press enter. Your Dev Phone should ring and you should hear "hello world".
 
-### Step 3: Daily challenge complete! Time to submit.
+### Step 3: Challenge complete! Time to submit.
 
-Congratulations on completing the day 3 challenge! To submit, take a screenshot of your Dev Phone call log to show you received the call.
+Congratulations on completing the Challenge 3! To submit, take a screenshot of your Dev Phone call log to show you received the call.
 
 ## Challenge 6: Deploy from the Twilio CodeExchange
 
 CodeExchange makes it easy to get started with any app. It’s a searchable directory of customizable code samples, written by developers around the world, vetted by Twilio experts, and ready for you to use. We can’t wait to see what you build using CodeExchange code samples. Go ahead and get started by checking it out now. Pick one of the Applications and deploy it to your Twilio account. [Twilio CodeExchange](https://www.twilio.com/code-exchange?q=&f=serverless).
 
-Don't forget to take a screenshot of your deployment and submit it to the GHW Security Week day-of form! 
+Don't forget to take a screenshot of your deployment and submit it to the GHW Cloud Week day-of form! 
 
 # Frequently Asked Questions
 
 ## I have an existing account with Twilio credit, what do I do?
 
-If that account is a trial account, using the upgrade code will replace your trial credit with $25 of real credit. If you have trial credit you want to use, it's recommended you use this before using the upgrade code.
+You can simply start a new account.  While signed in, head over to your [accounts summary page](https://hackp.ac/ghwcloud-twilio-accounts) and create a new account. This account will start out with the $15 free trial. 
 
 ## My Twilio account was suspended
 
-Please contact a Twilio team member in the Twilio channel in the GHW Discord.
+Please contact a member of the MLH team on the GHW discord channel. 
