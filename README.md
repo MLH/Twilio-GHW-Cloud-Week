@@ -1,10 +1,10 @@
 # Getting started with Twilio at Global Hack Week
 
-Hello hackers! Learn how to use REST APIs with Twilio during Global Hack Week by following the steps in this repository. You can submit the challenges each day at [https://ghw.mlh.io](https://ghw.mlh.io/). In this README, you will find instructions to follow for each day.
+Hello hackers! Learn how to use REST APIs with Twilio during Global Hack Week by following the steps in this repository. You can submit the challenges at [https://ghw.mlh.io](https://ghw.mlh.io/). In this README, you will find instructions to follow for each challenge.
 
 ## Getting Help
 
-If you have questions about Twilio or the Global Hack Week challenges, visit the #faq channel in the [MLH Discord](https://discord.mlh.io/).
+If you have questions about Twilio or the Global Hack Week challenges, message us on the [MLH Discord](https://discord.mlh.io/).
 
 # Daily challenges
 
@@ -26,32 +26,23 @@ During Global Hack Week, you will learn how to use Twilio to:
 
 To complete the week's challenges, there's some setup we need to do first. Today you will:
 
-- Create and upgrade your Twilio account with some free credit.
+- Create a Twilio account and receive complimentary free credits to start
 - Install the Twilio command line interface
 - Install `curl` to make requests to the Twilio API from the command line.
 
 ### Step 1: Create an account
 
-If you don't already have a Twilio account, create one by visiting [this link](https://www.twilio.com/try-twilio?promo=mlh-twilio).
+If you don't already have a Twilio account, create one by visiting [this link](https://hackp.ac/ghwcloud-twilio).
 
-### Step 2: Upgrading your account
+- You should receive some free credits to start out with. 
 
-When you create an account with the above link, you will create a trial account. To upgrade your account:
-
-- Visit the #twilio channel in the MLH Discord.
-- Check the pinned messages for the channel.
-- Find the promo code shared in the pinned message.
-- Follow [this guide](https://www.twilio.com/blog/apply-promo-code) to apply the promo code to your account.
-
-When you use this code, you will also get some free credit. If you did not create a new account, and are using an account you created in the past, you can still use this code to get extra credit to complete the Global Hack Week daily challenge.
-
-### Step 3: Installing the Twilio CLI
+### Step 2: Installing the Twilio CLI
 
 The Twilio CLI makes it easy to use Twilio from our command line interface. We will use the Twilio CLI to test our Twilio services from anywhere in the world.
 
 To install the CLI, follow [this guide](https://www.twilio.com/docs/twilio-cli/quickstart).
 
-### Step 4: Installing `curl`
+### Step 3: Installing `curl`
 
 The last step today is to install `curl`. `curl` is a command line tool for getting data from URLs, and we'll use it to interact with the Twilio REST API.
 
@@ -61,11 +52,11 @@ To install `curl`, follow [this guide](https://everything.curl.dev/get).
 
 `curl` comes pre-installed on Windows, and can be accessed through Powershell. Use `curl.exe` when giving commands, i.e. `curl.exe --version`.
 
-### Step 5: Daily challenge complete! Time to submit.
+### Step 4: Daily challenge complete! Time to submit.
 
 You've completed the challenge for the day, high five! To submit the challenge, type `curl --version` into your terminal, and submit a screenshot on the MLH day-of form! 
 
-## Day 1: Lookup a phone number
+## Challenge 1: Lookup a phone number
 
 You can learn a lot from a phone number. So Twilio built an API for that!
 
@@ -124,7 +115,7 @@ In a new terminal, paste the edited curl command, and press enter. You should se
 
 Congratulations on completing the day 3 challenge! To submit, take a screenshot of your command line output to show that you performed the lookup. Don't forget to submit your code to the [GHW Security Week Devpost page]! (https://ghw-security-week.devpost.com/)
 
-## Day 2: Send and check a verification one-time passcode
+## Challenge 2: Send and check a verification one-time passcode
 
 [Verify](https://www.twilio.com/docs/verify/api) is Twilio's purpose built API for sending and checking one-time passcodes (OTPs). It's built on top of Twilio's SMS API, but manages a lot of complexity for you so you don't have to write as much code to make it work.
 
@@ -179,7 +170,7 @@ In a new terminal, paste the edited curl command, and press enter. If the code i
 
 Congratulations on completing the day 3 challenge! To submit, take a screenshot of your SMS or WhatsApp application to show you received the OTP and submit it to the GHW Security Week day-of form!
 
-## Day 3: Install the Authy App
+## Challenge 3: Install the Authy App
 
 Twilio's Authy is a free application for 2FA. You can use it to protect your personal accounts with a strong second factor known as [TOTP](https://www.twilio.com/docs/glossary/totp).
 
@@ -195,7 +186,7 @@ Authy can be used anywhere Google Authenticator can be used. Add 2FA to any onli
 
 You've completed day 4, high five! To submit, take a screenshot of your Authy app showing the site you added and submit to the GHW Security Week day-of form! (don't worry about sharing the code, it expires!).
 
-## Day 4: Receive your first phone call using TwiML bins and Dev Phone.
+## Challenge 4: Receive your first phone call using TwiML bins and Dev Phone.
 
 [TwiML](https://www.twilio.com/docs/glossary/what-is-twilio-markup-language-twiml) (Twilio Markup Language) is a special markup language which you can use to program actions in Twilio.
 
@@ -248,7 +239,7 @@ From here, you can select a phone number. Choose the number that you didn't use 
 
 You've completed day 5, high five! To submit, take a screenshot of your Dev Phone call history and submit it to the GHW Security Week day-of form!
 
-## Day 5: Make your first outbound phone call using curl.
+## Challenge 5: Make your first outbound phone call using curl.
 
 Making an outbound phone call is a similar process to what we did on Day 2 to look up a phone number.
 
@@ -288,7 +279,7 @@ Make sure your Twilio Dev Phone is running and open it in your browser. In a new
 
 Congratulations on completing the day 3 challenge! To submit, take a screenshot of your Dev Phone call log to show you received the call.
 
-## Day 6: Deploy from the Twilio CodeExchange
+## Challenge 6: Deploy from the Twilio CodeExchange
 
 CodeExchange makes it easy to get started with any app. It’s a searchable directory of customizable code samples, written by developers around the world, vetted by Twilio experts, and ready for you to use. We can’t wait to see what you build using CodeExchange code samples. Go ahead and get started by checking it out now. Pick one of the Applications and deploy it to your Twilio account. [Twilio CodeExchange](https://www.twilio.com/code-exchange?q=&f=serverless).
 
